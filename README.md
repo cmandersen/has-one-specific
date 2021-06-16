@@ -3,7 +3,7 @@ Add a Laravel relationship where you can specify a set ID, instead of a dynamic 
 
 ## Installation
 ```
-composer install cmandersen/has-one-specific
+composer require cmandersen/has-one-specific
 ```
 
 ## Usage
