@@ -1,0 +1,22 @@
+{
+    "name": "cmandersen/has-one-specific",
+    "description": "Add a Laravel relationship where you can specify a set ID, instead of a dynamic relationship",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Morgan Andersen",
+            "email": "me@cma.dk"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/database": "^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CMAndersen\\HasOneSpecific\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}
