@@ -80,4 +80,14 @@ class HasOneSpecific extends Relation
     {
         return $this->query->first();
     }
+
+    /**
+     * Get the key for comparing against the parent key in "has" query.
+     *
+     * @return string
+     */
+    public function getExistenceCompareKey()
+    {
+        return $this->foreignKey;
+    }
 }
